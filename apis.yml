@@ -1,0 +1,88 @@
+aid: emergence-capital
+name: Emergence Capital
+description: >-
+  Emergence Capital is an early-stage venture capital firm founded in 2003 and headquartered in
+  San Francisco, California, focused exclusively on early-stage B2B / enterprise software. Its
+  founding thesis — that business software would move to the cloud — produced some of the defining
+  SaaS bets of the era, including a contrarian 2003 investment in Salesforce and being the sole
+  venture backer of Veeva's 2008 Series A. The firm runs a deliberately high-conviction, low-volume
+  model in which each partner makes roughly one investment per year, enabling deep engagement with
+  every founder. Its current thesis centers on "AI-native services" — companies that sell outcomes
+  rather than software subscriptions, whose service margins improve as AI models improve — alongside
+  AI infrastructure, physical-world AI, and horizontal and vertical SaaS. Emergence closed Fund VII
+  at $1B in March 2025 (its largest fund, following Fund VI at $575M in 2021), has deployed less than
+  $2.5B to generate $9B+ in realized returns, and its portfolio companies are collectively worth over
+  $450B. Notable investments include Salesforce, Zoom, Veeva, Box, Bill.com, Gusto, Doximity, and
+  Ironclad. Reported outcomes: 90%+ of early-stage investments raised successful follow-ons, 20%+
+  surpassed a $1B valuation, and 10%+ went public.
+x-type: venture-capital
+x-category: Venture Capital
+tags:
+  - Venture Capital
+  - Early Stage
+  - Series A
+  - Enterprise Software
+  - SaaS
+  - B2B
+  - Cloud
+  - AI
+  - Developer Tools
+  - Fintech
+  - North America
+  - San Francisco
+image: https://www.emcap.com/favicon.ico
+created: '2026-07-17'
+modified: '2026-07-17'
+specificationVersion: '0.20'
+apis: []
+common:
+  - type: Website
+    url: https://www.emcap.com/
+  - type: Portfolio
+    url: https://www.emcap.com/portfolio
+  - type: Portfolio
+    url: portfolio/emergence-capital-portfolio.yml
+  - type: Team
+    url: https://www.emcap.com/team
+  - type: InvestmentThesis
+    url: https://www.emcap.com/ai-native-services
+  - type: About
+    url: https://www.emcap.com/about
+  - type: Blog
+    url: https://www.emcap.com/thoughts
+  - type: Newsletter
+    url: https://emcap.substack.com/
+  - type: Pitch
+    url: https://airtable.com/appOuqz2X3sJF9ih4/shrrAEDb8LKp48VNC
+  - type: Contact
+    url: https://airtable.com/appOuqz2X3sJF9ih4/shrrAEDb8LKp48VNC
+  - type: Crunchbase
+    url: https://www.crunchbase.com/organization/emergence-capital-partners
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/emergence-capital-partners/
+  - type: Twitter
+    url: https://x.com/emergencecap
+  - type: Features
+    data:
+      - 'Stage: Early stage (Series A and earlier)'
+      - 'Model: One investment per partner per year (high-conviction, low-volume)'
+      - 'Sectors: enterprise/B2B software, SaaS, AI-native services, AI infrastructure, physical-world AI, fintech, developer tools'
+      - 'Geography: North America (San Francisco HQ)'
+      - 'Fund VII: $1B (closed March 2025)'
+      - 'Fund VI: $575M (2021)'
+      - 'Capital deployed: <$2.5B for $9B+ realized returns'
+      - 'Portfolio collective value: $450B+'
+      - 'Founded: 2003'
+      - 'HQ: Pier 5, Ste 102, San Francisco, CA 94111'
+    sources:
+      - https://www.emcap.com/
+      - https://www.emcap.com/about
+    updated: '2026-07-17'
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
+    url: https://apievangelist.com
+  - FN: APIs.json
+    url: https://apisjson.org
+  - FN: Emergence Capital
+    url: https://www.emcap.com/
