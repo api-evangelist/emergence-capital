@@ -3,9 +3,9 @@ method: searched
 source: https://www.emcap.com/portfolio
 summary:
   portfolio_total: 86
-  in_network: 35
-  api_providers: 23
-  missing: 51
+  in_network: 86
+  api_providers: 32
+  missing: 0
   stubs_created: 0
 companies:
 - name: Adaption
@@ -14,9 +14,10 @@ companies:
   stage: seed
   status: active
   source: https://www.emcap.com/portfolio/adaption
-  in_network: false
-  is_api_provider: false
-  suggested_slug: adaption
+  in_network: true
+  is_api_provider: true
+  slug: adaption
+  matched_by: name-slug
 - name: Adaptive
   url: https://www.adaptive.build
   description: Financial operations platform for the construction industry.
@@ -27,7 +28,7 @@ companies:
   slug: adaptive
   in_network: true
   is_api_provider: false
-  matched_by: name-slug
+  matched_by: domain
 - name: Arcee AI
   url: https://www.arcee.ai
   description: Platform for building and deploying small, specialized language models.
@@ -35,9 +36,10 @@ companies:
   stage: series-a
   status: active
   source: https://www.emcap.com/portfolio/arcee-ai
-  in_network: false
-  is_api_provider: false
-  suggested_slug: arcee-ai
+  in_network: true
+  is_api_provider: true
+  slug: arcee-ai
+  matched_by: domain
 - name: Artificial Intelligence Underwriting Company
   url: https://www.aiuc.com
   description: Insurance and standards for AI agents.
@@ -45,9 +47,10 @@ companies:
   stage: seed
   status: active
   source: https://www.emcap.com/portfolio/artificial-intelligence-underwriting-company
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: artificial-intelligence-underwriting-company
+  slug: artificial-intelligence-underwriting-company
+  matched_by: domain
 - name: ASAPP
   url: https://www.asapp.com
   description: Generative AI for customer experience and contact centers.
@@ -55,9 +58,10 @@ companies:
   stage: growth
   status: active
   source: https://www.emcap.com/portfolio/asapp
-  in_network: false
-  is_api_provider: false
-  suggested_slug: asapp
+  in_network: true
+  is_api_provider: true
+  slug: asapp
+  matched_by: domain
 - name: Assembled
   url: https://www.assembled.com
   description: Workforce management and support operations platform.
@@ -75,9 +79,10 @@ companies:
   stage: seed
   status: active
   source: https://www.emcap.com/portfolio/bedrock-robotics
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: bedrock-robotics
+  slug: bedrock-robotics
+  matched_by: name-slug
 - name: Betterworks
   url: https://www.betterworks.com
   description: Performance management and goal-setting (OKR) software.
@@ -118,9 +123,9 @@ companies:
   stage: ipo
   status: ipo
   source: https://www.emcap.com/portfolio/blend
-  slug: blend-mortgage
+  slug: blend-labs
   in_network: true
-  is_api_provider: true
+  is_api_provider: false
   matched_by: domain
 - name: Bolt
   url: https://www.bolt.com
@@ -150,9 +155,10 @@ companies:
   stage: seed
   status: active
   source: https://www.emcap.com/portfolio/casap
-  in_network: false
-  is_api_provider: false
-  suggested_slug: casap
+  in_network: true
+  is_api_provider: true
+  slug: casap
+  matched_by: name-slug
 - name: Chainalysis
   url: https://www.chainalysis.com
   description: Blockchain data and cryptocurrency investigations platform.
@@ -183,9 +189,10 @@ companies:
   stage: growth
   status: active
   source: https://www.emcap.com/portfolio/civitas-learning
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: civitas-learning
+  slug: civitas-learning
+  matched_by: domain
 - name: Class
   url: https://www.class.com
   description: Virtual classroom and online learning software.
@@ -193,9 +200,10 @@ companies:
   stage: series-b
   status: active
   source: https://www.emcap.com/portfolio/class
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: class
+  slug: class
+  matched_by: domain
 - name: Clearco
   url: https://www.clear.co
   description: Revenue-based financing for e-commerce businesses.
@@ -203,9 +211,10 @@ companies:
   stage: growth
   status: active
   source: https://www.emcap.com/portfolio/clearco
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: clearco
+  slug: clearco
+  matched_by: domain
 - name: Cline
   url: https://cline.bot
   description: Open-source autonomous coding agent for developers.
@@ -257,18 +266,20 @@ companies:
   stage: growth
   status: active
   source: https://www.emcap.com/portfolio/das-technology
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: das-technology
+  slug: das-technology
+  matched_by: domain
 - name: Devai
   description: AI software for developers.
   sector: developer-tools
   stage: seed
   status: active
   source: https://www.emcap.com/portfolio/devai
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: devai
+  slug: devai
+  matched_by: name-slug
 - name: Donuts
   url: https://donuts.domains
   description: Domain name registry operator (now Identity Digital).
@@ -276,9 +287,10 @@ companies:
   stage: growth
   status: acquired
   source: https://www.emcap.com/portfolio/donuts
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: donuts
+  slug: donuts
+  matched_by: domain
 - name: Doximity
   url: https://www.doximity.com
   description: Professional network and workflow tools for physicians.
@@ -286,9 +298,10 @@ companies:
   stage: ipo
   status: ipo
   source: https://www.emcap.com/portfolio/doximity
-  in_network: false
-  is_api_provider: false
-  suggested_slug: doximity
+  in_network: true
+  is_api_provider: true
+  slug: doximity
+  matched_by: domain
 - name: Drishti
   url: https://www.drishti.com
   description: AI-powered video analytics for manufacturing production lines.
@@ -296,9 +309,10 @@ companies:
   stage: growth
   status: acquired
   source: https://www.emcap.com/portfolio/drishti
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: drishti
+  slug: drishti
+  matched_by: domain
 - name: DroneDeploy
   url: https://www.dronedeploy.com
   description: Drone mapping and reality-capture software for the physical world.
@@ -317,9 +331,10 @@ companies:
   stage: growth
   status: acquired
   source: https://www.emcap.com/portfolio/eversight
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: eversight
+  slug: eversight
+  matched_by: name-slug
 - name: Federato
   url: https://www.federato.ai
   description: RiskOps platform for commercial insurance underwriting.
@@ -327,9 +342,10 @@ companies:
   stage: series-b
   status: active
   source: https://www.emcap.com/portfolio/federato
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: federato
+  slug: federato
+  matched_by: domain
 - name: Forma
   url: https://www.joinforma.com
   description: Flexible employee benefits and lifestyle spending accounts.
@@ -337,9 +353,10 @@ companies:
   stage: series-b
   status: active
   source: https://www.emcap.com/portfolio/forma
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: forma
+  slug: forma
+  matched_by: domain
 - name: G2
   url: https://www.g2.com
   description: Software marketplace and peer review platform.
@@ -358,9 +375,10 @@ companies:
   stage: series-a
   status: active
   source: https://www.emcap.com/portfolio/genspark
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: genspark
+  slug: genspark
+  matched_by: domain
 - name: GroundTruth
   url: https://www.groundtruth.com
   description: Location-based marketing and advertising platform.
@@ -368,9 +386,10 @@ companies:
   stage: growth
   status: active
   source: https://www.emcap.com/portfolio/groundtruth
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: groundtruth
+  slug: groundtruth
+  matched_by: domain
 - name: Guru
   url: https://www.getguru.com
   description: Enterprise AI search and knowledge management.
@@ -399,9 +418,10 @@ companies:
   stage: seed
   status: unknown
   source: https://www.emcap.com/portfolio/hanover-park
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: hanover-park
+  slug: hanover-park
+  matched_by: name-slug
 - name: Harper
   url: https://www.harper.insure
   description: AI-driven insurance brokerage and agency platform.
@@ -409,9 +429,10 @@ companies:
   stage: seed
   status: active
   source: https://www.emcap.com/portfolio/harper
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: harper
+  slug: harper
+  matched_by: name-slug
 - name: High Alpha
   url: https://www.highalpha.com
   description: Venture studio and fund building B2B SaaS companies.
@@ -419,9 +440,10 @@ companies:
   stage: growth
   status: active
   source: https://www.emcap.com/portfolio/high-alpha
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: high-alpha
+  slug: high-alpha-capital
+  matched_by: domain
 - name: Hi Marley
   url: https://www.himarley.com
   description: Intelligent conversation platform for the insurance industry.
@@ -429,9 +451,10 @@ companies:
   stage: series-b
   status: active
   source: https://www.emcap.com/portfolio/hi-marley
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: hi-marley
+  slug: hi-marley
+  matched_by: domain
 - name: Impartner
   url: https://www.impartner.com
   description: Partner relationship management (PRM) software.
@@ -439,9 +462,10 @@ companies:
   stage: growth
   status: active
   source: https://www.emcap.com/portfolio/impartner
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: impartner
+  slug: impartner
+  matched_by: domain
 - name: IrisVR
   url: https://www.irisvr.com
   description: Virtual reality software for architecture and construction.
@@ -449,9 +473,10 @@ companies:
   stage: series-a
   status: acquired
   source: https://www.emcap.com/portfolio/irisvr
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: irisvr
+  slug: irisvr
+  matched_by: domain
 - name: Ironclad
   url: https://ironcladapp.com
   description: Digital contract lifecycle management platform.
@@ -470,18 +495,20 @@ companies:
   stage: series-a
   status: active
   source: https://www.emcap.com/portfolio/justifi
-  in_network: false
-  is_api_provider: false
-  suggested_slug: justifi
+  in_network: true
+  is_api_provider: true
+  slug: justifi
+  matched_by: domain
 - name: Layer
   description: Enterprise software company.
   sector: enterprise-software
   stage: seed
   status: active
   source: https://www.emcap.com/portfolio/layer
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: layer
+  slug: layer
+  matched_by: name-slug
 - name: Logik.io
   url: https://www.logik.io
   description: Configure-price-quote (CPQ) and advanced configuration engine.
@@ -489,9 +516,10 @@ companies:
   stage: series-b
   status: active
   source: https://www.emcap.com/portfolio/logik-io
-  in_network: false
-  is_api_provider: false
-  suggested_slug: logikio
+  in_network: true
+  is_api_provider: true
+  slug: logikio
+  matched_by: domain
 - name: Maze
   url: https://maze.co
   description: Continuous product discovery and user research platform.
@@ -499,9 +527,10 @@ companies:
   stage: series-b
   status: active
   source: https://www.emcap.com/portfolio/maze
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: maze
+  slug: maze
+  matched_by: domain
 - name: Mechanical Orchard
   url: https://www.mechanical-orchard.com
   description: AI-driven legacy application modernization.
@@ -509,9 +538,10 @@ companies:
   stage: series-b
   status: active
   source: https://www.emcap.com/portfolio/mechanical-orchard
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: mechanical-orchard
+  slug: mechanical-orchard
+  matched_by: domain
 - name: Mercor
   url: https://mercor.com
   description: AI-powered talent marketplace and hiring platform.
@@ -530,7 +560,7 @@ companies:
   stage: series-b
   status: active
   source: https://www.emcap.com/portfolio/method
-  slug: method-fi
+  slug: methodfi
   in_network: true
   is_api_provider: true
   matched_by: domain
@@ -552,9 +582,10 @@ companies:
   stage: growth
   status: acquired
   source: https://www.emcap.com/portfolio/mya-systems
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: mya-systems
+  slug: mya-systems
+  matched_by: domain
 - name: Openpath
   url: https://www.openpath.com
   description: Cloud-based mobile access control for buildings.
@@ -562,9 +593,10 @@ companies:
   stage: growth
   status: acquired
   source: https://www.emcap.com/portfolio/openpath
-  in_network: false
-  is_api_provider: false
-  suggested_slug: openpath
+  in_network: true
+  is_api_provider: true
+  slug: openpath
+  matched_by: domain
 - name: Oyster
   url: https://www.oysterhr.com
   description: Global employment and payroll platform for distributed teams.
@@ -582,9 +614,10 @@ companies:
   stage: seed
   status: active
   source: https://www.emcap.com/portfolio/pace
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: pace
+  slug: pace
+  matched_by: name-slug
 - name: Physical Intelligence
   url: https://www.physicalintelligence.company
   description: Foundation models for robotics and physical-world AI.
@@ -614,9 +647,10 @@ companies:
   stage: growth
   status: active
   source: https://www.emcap.com/portfolio/prosper
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: prosper
+  slug: prosper
+  matched_by: domain
 - name: Regal
   url: https://www.regal.ai
   description: AI phone agents and outbound sales/customer engagement.
@@ -635,27 +669,30 @@ companies:
   stage: growth
   status: acquired
   source: https://www.emcap.com/portfolio/replicon
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: replicon
+  slug: replicon
+  matched_by: domain
 - name: Restorando
   description: Online restaurant reservations platform for Latin America.
   sector: consumer
   stage: growth
   status: acquired
   source: https://www.emcap.com/portfolio/restorando
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: restorando
+  slug: restorando
+  matched_by: name-slug
 - name: Rowspace
   description: Enterprise software company.
   sector: enterprise-software
   stage: seed
   status: active
   source: https://www.emcap.com/portfolio/rowspace
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: rowspace
+  slug: rowspace
+  matched_by: name-slug
 - name: Saleo
   url: https://www.saleo.io
   description: Live demo experience platform for software sales.
@@ -663,9 +700,10 @@ companies:
   stage: series-a
   status: active
   source: https://www.emcap.com/portfolio/saleo
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: saleo
+  slug: saleo
+  matched_by: domain
 - name: Salesforce
   url: https://www.salesforce.com
   description: Cloud customer relationship management (CRM) platform.
@@ -707,9 +745,10 @@ companies:
   stage: growth
   status: acquired
   source: https://www.emcap.com/portfolio/servicemax
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: servicemax
+  slug: servicemax
+  matched_by: domain
 - name: SimpleLegal
   url: https://www.simplelegal.com
   description: Legal operations and e-billing management software.
@@ -728,18 +767,20 @@ companies:
   stage: series-b
   status: active
   source: https://www.emcap.com/portfolio/textio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: textio
+  slug: textio
+  matched_by: domain
 - name: Deployco
   description: Enterprise software company (stealth/early stage).
   sector: enterprise-software
   stage: seed
   status: unknown
   source: https://www.emcap.com/portfolio/deployco
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: deployco
+  slug: deployco
+  matched_by: name-slug
 - name: ThreeFlow
   url: https://www.threeflow.com
   description: Benefits placement system connecting brokers and insurance carriers.
@@ -747,9 +788,10 @@ companies:
   stage: series-b
   status: active
   source: https://www.emcap.com/portfolio/threeflow
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: threeflow
+  slug: threeflow
+  matched_by: domain
 - name: Together AI
   url: https://www.together.ai
   description: Cloud platform for training and running generative AI models.
@@ -768,9 +810,10 @@ companies:
   stage: growth
   status: active
   source: https://www.emcap.com/portfolio/top-hat
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: top-hat
+  slug: top-hat
+  matched_by: domain
 - name: Total Expert
   url: https://totalexpert.com
   description: Customer engagement and marketing platform for financial services.
@@ -778,9 +821,10 @@ companies:
   stage: growth
   status: active
   source: https://www.emcap.com/portfolio/total-expert
-  in_network: false
-  is_api_provider: false
-  suggested_slug: total-expert
+  in_network: true
+  is_api_provider: true
+  slug: total-expert
+  matched_by: domain
 - name: Unify
   url: https://www.unifygtm.com
   description: AI-driven go-to-market and outbound sales platform.
@@ -788,9 +832,10 @@ companies:
   stage: series-a
   status: active
   source: https://www.emcap.com/portfolio/unify
-  in_network: false
-  is_api_provider: false
-  suggested_slug: unify
+  in_network: true
+  is_api_provider: true
+  slug: unify
+  matched_by: domain
 - name: UpKeep
   url: https://www.onupkeep.com
   description: Mobile-first maintenance and asset management (CMMS) platform.
@@ -820,9 +865,10 @@ companies:
   stage: seed
   status: unknown
   source: https://www.emcap.com/portfolio/vesence
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: vesence
+  slug: vesence
+  matched_by: name-slug
 - name: Vymo
   url: https://www.vymo.com
   description: Sales engagement and productivity platform for financial services.
@@ -830,9 +876,10 @@ companies:
   stage: series-b
   status: active
   source: https://www.emcap.com/portfolio/vymo
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: vymo
+  slug: vymo
+  matched_by: domain
 - name: Welltok
   url: https://www.welltok.com
   description: Consumer health engagement and activation platform.
@@ -840,9 +887,10 @@ companies:
   stage: growth
   status: acquired
   source: https://www.emcap.com/portfolio/welltok
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: welltok
+  slug: welltok
+  matched_by: domain
 - name: Whistic
   url: https://www.whistic.com
   description: Vendor security assessment and third-party risk platform.
@@ -850,9 +898,10 @@ companies:
   stage: series-b
   status: active
   source: https://www.emcap.com/portfolio/whistic
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: whistic
+  slug: whistic
+  matched_by: domain
 - name: Xapo
   url: https://www.xapo.com
   description: Bitcoin-based private bank and digital asset custody.
@@ -860,18 +909,20 @@ companies:
   stage: growth
   status: active
   source: https://www.emcap.com/portfolio/xapo
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: xapo
+  slug: xapo
+  matched_by: name-slug
 - name: Yammer
   description: Enterprise social networking platform.
   sector: enterprise-software
   stage: growth
   status: acquired
   source: https://www.emcap.com/portfolio/yammer
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: yammer
+  slug: yammer
+  matched_by: name-slug
 - name: Zipline
   url: https://www.flyzipline.com
   description: Autonomous drone delivery for medical supplies and goods.
@@ -879,10 +930,10 @@ companies:
   stage: growth
   status: active
   source: https://www.emcap.com/portfolio/zipline
-  slug: zipline
+  slug: zipline-international
   in_network: true
   is_api_provider: false
-  matched_by: name-slug
+  matched_by: domain
 - name: Zoom
   url: https://www.zoom.us
   description: Cloud video communications and collaboration platform.
