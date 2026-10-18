@@ -3,9 +3,9 @@ method: searched
 source: https://www.emcap.com/portfolio
 summary:
   portfolio_total: 86
-  in_network: 86
-  api_providers: 32
-  missing: 0
+  in_network: 81
+  api_providers: 38
+  missing: 5
   stubs_created: 0
 companies:
 - name: Adaption
@@ -123,9 +123,9 @@ companies:
   stage: ipo
   status: ipo
   source: https://www.emcap.com/portfolio/blend
-  slug: blend-labs
+  slug: blend-mortgage
   in_network: true
-  is_api_provider: false
+  is_api_provider: true
   matched_by: domain
 - name: Bolt
   url: https://www.bolt.com
@@ -134,7 +134,7 @@ companies:
   stage: growth
   status: active
   source: https://www.emcap.com/portfolio/bolt
-  slug: bolt
+  slug: bolt-financial
   in_network: true
   is_api_provider: true
   matched_by: domain
@@ -180,7 +180,7 @@ companies:
   source: https://www.emcap.com/portfolio/chorus
   slug: chorus-ai
   in_network: true
-  is_api_provider: false
+  is_api_provider: true
   matched_by: domain
 - name: Civitas Learning
   url: https://www.civitaslearning.com
@@ -201,8 +201,8 @@ companies:
   status: active
   source: https://www.emcap.com/portfolio/class
   in_network: true
-  is_api_provider: false
-  slug: class
+  is_api_provider: true
+  slug: class-fka-classedu
   matched_by: domain
 - name: Clearco
   url: https://www.clear.co
@@ -213,7 +213,7 @@ companies:
   source: https://www.emcap.com/portfolio/clearco
   in_network: true
   is_api_provider: false
-  slug: clearco
+  slug: clearbanc
   matched_by: domain
 - name: Cline
   url: https://cline.bot
@@ -255,10 +255,9 @@ companies:
   stage: growth
   status: active
   source: https://www.emcap.com/portfolio/crunchbase
-  slug: crunchbase
-  in_network: true
-  is_api_provider: true
-  matched_by: name-slug
+  in_network: false
+  is_api_provider: false
+  suggested_slug: crunchbase
 - name: DAS Technology
   url: https://www.dastechnology.com
   description: Customer data and marketing platform for automotive retail.
@@ -267,7 +266,7 @@ companies:
   status: active
   source: https://www.emcap.com/portfolio/das-technology
   in_network: true
-  is_api_provider: false
+  is_api_provider: true
   slug: das-technology
   matched_by: domain
 - name: Devai
@@ -331,10 +330,10 @@ companies:
   stage: growth
   status: acquired
   source: https://www.emcap.com/portfolio/eversight
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: eversight
-  matched_by: name-slug
+  x-name-collision: eversight
+  suggested_slug: eversight-com
 - name: Federato
   url: https://www.federato.ai
   description: RiskOps platform for commercial insurance underwriting.
@@ -366,7 +365,7 @@ companies:
   source: https://www.emcap.com/portfolio/g2
   slug: g2
   in_network: true
-  is_api_provider: false
+  is_api_provider: true
   matched_by: domain
 - name: Genspark
   url: https://www.genspark.ai
@@ -387,7 +386,7 @@ companies:
   status: active
   source: https://www.emcap.com/portfolio/groundtruth
   in_network: true
-  is_api_provider: false
+  is_api_provider: true
   slug: groundtruth
   matched_by: domain
 - name: Guru
@@ -429,10 +428,10 @@ companies:
   stage: seed
   status: active
   source: https://www.emcap.com/portfolio/harper
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: harper
-  matched_by: name-slug
+  x-name-collision: harper
+  suggested_slug: harper-insure
 - name: High Alpha
   url: https://www.highalpha.com
   description: Venture studio and fund building B2B SaaS companies.
@@ -442,7 +441,7 @@ companies:
   source: https://www.emcap.com/portfolio/high-alpha
   in_network: true
   is_api_provider: false
-  slug: high-alpha-capital
+  slug: high-alpha
   matched_by: domain
 - name: Hi Marley
   url: https://www.himarley.com
@@ -606,7 +605,7 @@ companies:
   source: https://www.emcap.com/portfolio/oyster
   slug: oyster-hr
   in_network: true
-  is_api_provider: false
+  is_api_provider: true
   matched_by: domain
 - name: Pace
   description: Enterprise software company.
@@ -909,20 +908,19 @@ companies:
   stage: growth
   status: active
   source: https://www.emcap.com/portfolio/xapo
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: xapo
-  matched_by: name-slug
+  x-name-collision: xapo
+  suggested_slug: xapo-com
 - name: Yammer
   description: Enterprise social networking platform.
   sector: enterprise-software
   stage: growth
   status: acquired
   source: https://www.emcap.com/portfolio/yammer
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: yammer
-  matched_by: name-slug
+  suggested_slug: yammer
 - name: Zipline
   url: https://www.flyzipline.com
   description: Autonomous drone delivery for medical supplies and goods.

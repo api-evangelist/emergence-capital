@@ -1,4 +1,39 @@
-generated: '2026-07-22'
+generated: '2026-10-18'
 method: derived
 source_vc: emergence-capital
-leads: []
+leads:
+- name: Crunchbase
+  url: https://www.crunchbase.com
+  suggested_slug: crunchbase
+  sector: data
+  source_vc: emergence-capital
+  source: https://www.emcap.com/portfolio/crunchbase
+  stub_created: false
+- name: Eversight
+  url: https://www.eversight.com
+  suggested_slug: eversight-com
+  sector: retail-tech
+  source_vc: emergence-capital
+  source: https://www.emcap.com/portfolio/eversight
+  stub_created: false
+- name: Harper
+  url: https://www.harper.insure
+  suggested_slug: harper-insure
+  sector: insurance-tech
+  source_vc: emergence-capital
+  source: https://www.emcap.com/portfolio/harper
+  stub_created: false
+- name: Xapo
+  url: https://www.xapo.com
+  suggested_slug: xapo-com
+  sector: crypto
+  source_vc: emergence-capital
+  source: https://www.emcap.com/portfolio/xapo
+  stub_created: false
+- name: Yammer
+  url: ''
+  suggested_slug: yammer
+  sector: enterprise-software
+  source_vc: emergence-capital
+  source: https://www.emcap.com/portfolio/yammer
+  stub_created: false
