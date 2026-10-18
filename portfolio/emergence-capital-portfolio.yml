@@ -938,7 +938,7 @@ companies:
   in_network: false
   is_api_provider: false
   suggested_slug: yammer
-  x-url-candidate: https://yammer.io
+  x-url-rejected: https://yammer.io
 - name: Zipline
   url: https://www.flyzipline.com
   description: Autonomous drone delivery for medical supplies and goods.
