@@ -17,7 +17,9 @@ companies:
   in_network: true
   is_api_provider: true
   slug: adaption
-  matched_by: name-slug
+  matched_by: domain
+  url: https://adaptionlabs.ai/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Adaptive
   url: https://www.adaptive.build
   description: Financial operations platform for the construction industry.
@@ -82,7 +84,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: bedrock-robotics
-  matched_by: name-slug
+  matched_by: domain
+  url: https://bedrockrobotics.com
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Betterworks
   url: https://www.betterworks.com
   description: Performance management and goal-setting (OKR) software.
@@ -158,7 +162,9 @@ companies:
   in_network: true
   is_api_provider: true
   slug: casap
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.casaphq.com
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Chainalysis
   url: https://www.chainalysis.com
   description: Blockchain data and cryptocurrency investigations platform.
@@ -278,7 +284,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: devai
-  matched_by: name-slug
+  matched_by: domain
+  url: https://dev-ai.com/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Donuts
   url: https://donuts.domains
   description: Domain name registry operator (now Identity Digital).
@@ -332,8 +340,8 @@ companies:
   source: https://www.emcap.com/portfolio/eversight
   in_network: false
   is_api_provider: false
-  x-name-collision: eversight
   suggested_slug: eversight-com
+  x-name-collision: eversight
 - name: Federato
   url: https://www.federato.ai
   description: RiskOps platform for commercial insurance underwriting.
@@ -420,7 +428,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: hanover-park
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.hanoverpark.com
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Harper
   url: https://www.harper.insure
   description: AI-driven insurance brokerage and agency platform.
@@ -430,8 +440,8 @@ companies:
   source: https://www.emcap.com/portfolio/harper
   in_network: false
   is_api_provider: false
-  x-name-collision: harper
   suggested_slug: harper-insure
+  x-name-collision: harper
 - name: High Alpha
   url: https://www.highalpha.com
   description: Venture studio and fund building B2B SaaS companies.
@@ -507,7 +517,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: layer
-  matched_by: name-slug
+  matched_by: domain
+  url: https://layer.com/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Logik.io
   url: https://www.logik.io
   description: Configure-price-quote (CPQ) and advanced configuration engine.
@@ -691,7 +703,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: rowspace
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.rowspace.ai/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Saleo
   url: https://www.saleo.io
   description: Live demo experience platform for software sales.
@@ -780,6 +794,7 @@ companies:
   is_api_provider: false
   slug: deployco
   matched_by: name-slug
+  x-url-candidate: https://www.deployco.co/
 - name: ThreeFlow
   url: https://www.threeflow.com
   description: Benefits placement system connecting brokers and insurance carriers.
@@ -867,7 +882,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: vesence
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.vesence.com/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Vymo
   url: https://www.vymo.com
   description: Sales engagement and productivity platform for financial services.
@@ -910,8 +927,8 @@ companies:
   source: https://www.emcap.com/portfolio/xapo
   in_network: false
   is_api_provider: false
-  x-name-collision: xapo
   suggested_slug: xapo-com
+  x-name-collision: xapo
 - name: Yammer
   description: Enterprise social networking platform.
   sector: enterprise-software
@@ -921,6 +938,7 @@ companies:
   in_network: false
   is_api_provider: false
   suggested_slug: yammer
+  x-url-candidate: https://yammer.io
 - name: Zipline
   url: https://www.flyzipline.com
   description: Autonomous drone delivery for medical supplies and goods.
